@@ -2,7 +2,7 @@ package curs7;
 
 public class Teacher {
 
-	String course;
+	private String course;
 	public int getExperienceYears() {
 		return experienceYears;
 	}
@@ -21,6 +21,6 @@ public class Teacher {
 	public void setCourse(String course) {
 		this.course = course;
 	}
-	int experienceYears;
-	String schedule;
+	private int experienceYears;
+	private String schedule;
 }

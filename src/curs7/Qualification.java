@@ -8,7 +8,7 @@ public class Qualification extends Teacher {
 	}
 	
 	public void verify() {
-		if(experienceYears > 3 && course.equals("Java") && schedule.equals("Afternoon")) {
+		if(this.getExperienceYears() > 3 && this.getCourse().equals("Java") && this.getSchedule().equals("Afternoon")) {
 			System.out.println("You qualify to teach at this school!");
 		} else {
 			System.out.println("You do not qualify!");
