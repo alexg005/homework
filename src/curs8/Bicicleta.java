@@ -17,12 +17,12 @@ public class Bicicleta extends Vehicul {
 	@Override
 	public String motorizare() {
 
-		return super.motorizare();
+		return "Motorizare: Gambe";
 	}
 	
 	@Override
 	public String nume() {
 		
-		return super.nume();
+		return String.format("Nume: %s", super.getBrand());
 	}
 }
